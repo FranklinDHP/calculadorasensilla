@@ -1,0 +1,57 @@
+.calculadora {
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius:10px;
+    background-color: #f0f0f0; /* Color de fondo */
+}
+
+.botones {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 6px;
+    
+}
+
+button {    
+    padding: 10px;
+    font-size: 1.2em;
+    border: 1px solid #e91111;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #eee; /* Color de fondo de los botones */
+    transition: background-color 0.3s ease; /* Transición suave para el hover */
+}
+
+button:hover {
+    background-color: #d35353; /* Color de fondo al pasar el mouse */
+}
+
+button:active {
+    background-color: #ccc; /* Color de fondo al hacer click */
+}
+
+
+input{
+    display: grid;
+    padding: 10px;
+    font-size: 1.2em;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: #eee; /* Color de fondo de los botones */
+    transition: background-color 0.3s ease; 
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius:10px;
+    background-color: #f0f0f0; /* Color de fondo */
+
+}
+
+h1{
+    text-align: center;
+}
+
