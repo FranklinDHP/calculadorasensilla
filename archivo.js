@@ -50,9 +50,11 @@ function Vabsoluto() {
 }
 
 function Random() {
-  let resultado = Number(document.getElementById("resultado").value);
-  document.getElementById("resultado").value = Math.random(resultado);
-}
+  let minimo = Number(document.getElementById("num1").value);
+  let maximo = Number(document.getElementById("num2").value);
+  maximo = maximo + 1
+  document.getElementById("resultado").value = Math.floor(Math.random() * (maximo - minimo));
+
 
 function round() {
   let resultado = Number(document.getElementById("resultado").value);
